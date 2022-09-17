@@ -1,0 +1,260 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "utils";
+
+$color_type_0: #323fb0e5;
+$color_type_1: #3d4bc87f;
+$color_type_2: rgb(0, 0, 0);
+$color_type_3: rgb(255, 255, 255);
+$color_type_4: rgba(52, 64, 176, 0.811);
+
+$font_type_0: 700 36px/1.2 "Lato", Helvetica, Arial, serif;
+$font_type_1: 600 22px/1.2 "Lato", Helvetica, Arial, serif;
+$font_type_2: 600 1em/1.2 "Lato", Helvetica, Arial, serif;
+
+.block {
+  @include flex-column;
+  background-color: $color_type_3;
+  border-radius: 32px 32px 32px 32px;
+}
+.block_layout {
+  position: relative;
+  overflow: hidden;
+}
+.group {
+  @include flex-column;
+}
+.group_layout3 {
+  position: relative;
+  flex-grow: 1;
+  margin: 14px 0px 0px;
+}
+.decorator {
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+  object-fit: contain;
+  object-position: center top;
+}
+.decorator_layout {
+  position: absolute;
+  top: -20px;
+  height: 920px;
+  left: -7px;
+  width: 440px;
+}
+.box {
+  background-color: $color_type_3;
+  border-radius: 32px 32px 0px 0px;
+}
+.box_layout {
+  position: absolute;
+  top: 301px;
+  height: 643px;
+  width: 429px;
+  right: -1px;
+}
+.image1 {
+  background: var(--src) center center / cover no-repeat;
+}
+.image1_layout {
+  position: absolute;
+  top: 448px;
+  height: 48px;
+  width: 65px;
+  right: 34px;
+}
+.group_layout2 {
+  position: relative;
+  flex-grow: 1;
+}
+.block3 {
+  background: var(--src) center center / cover no-repeat;
+}
+.block3_layout {
+  position: absolute;
+  top: 99px;
+  height: 323px;
+  left: 33px;
+  width: 361px;
+}
+.flex {
+  @include flex-column;
+}
+.flex_layout {
+  position: relative;
+  flex-grow: 1;
+}
+.group_layout1 {
+  position: relative;
+  margin: 0px 10px 0px 39px;
+}
+.block2 {
+  @include flex-column;
+  background: var(--src) center center / cover no-repeat;
+}
+.block2_layout {
+  position: absolute;
+  top: 10px;
+  height: 30px;
+  left: -31px;
+  width: 31px;
+}
+.flex1 {
+  display: flex;
+}
+.flex1_layout {
+  position: relative;
+  flex-grow: 1;
+}
+.group_layout {
+  position: relative;
+  flex: 0 0 auto;
+  margin: 2px 0px 4px;
+}
+.hero_title {
+  @include font-face($font_type_0, $color_type_3, 0px);
+}
+.hero_title_layout {
+  position: relative;
+  flex-grow: 1;
+}
+.block21 {
+  background: var(--src) center center / cover no-repeat;
+}
+.block21_layout {
+  position: absolute;
+  top: 8px;
+  height: 30px;
+  left: -31px;
+  width: 31px;
+}
+.flex_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 182px;
+}
+.flex_item {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 50px;
+}
+.block1 {
+  @include flex-column;
+  background: var(--src) center center / cover no-repeat;
+}
+.block1_layout {
+  position: relative;
+  flex-grow: 1;
+}
+.icon1 {
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+  object-fit: contain;
+  object-position: center top;
+}
+.icon1_layout {
+  position: relative;
+  height: 31px;
+  width: 31px;
+  min-width: 31px;
+  margin: 10px 10px 9px 9px;
+}
+.flex_spacer1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 8px;
+}
+.icon1_layout1 {
+  position: relative;
+  height: 31px;
+  width: 31px;
+  min-width: 31px;
+  margin: 9px 10px 10px 9px;
+}
+.subtitle {
+  @include font-face($font_type_1, $color_type_2, 0px);
+}
+.subtitle_box_layout {
+  position: relative;
+  width: 65.42%;
+  margin: 441px auto 0px;
+}
+.undefined_span0 {
+  @include font-face($font_type_2, $color_type_1, 0px);
+}
+.undefined_span1 {
+  @include font-face($font_type_2, $color_type_0, 0px);
+}
+.undefined_span2 {
+  @include font-face($font_type_2, $color_type_1, 0px);
+}
+.subtitle_box_layout1 {
+  position: relative;
+  width: 50%;
+  margin: 0px 32.71% 0px 17.29%;
+}
+.subtitle1 {
+  @include font-face($font_type_1, $color_type_2, 0px);
+}
+.subtitle1_layout {
+  position: relative;
+  width: 82.48%;
+  margin: 24px 7.94% 0px 9.58%;
+}
+.block4 {
+  @include flex-column;
+  background-color: $color_type_4;
+  border-radius: 26px 26px 26px 26px;
+}
+.block4_layout {
+  position: relative;
+  width: 51.64%;
+  margin: 17px auto 0px;
+}
+.subtitle11 {
+  @include font-face($font_type_1, $color_type_3, -0.2px);
+}
+.subtitle11_layout {
+  position: relative;
+  flex-grow: 1;
+  width: 54.3%;
+  margin: 11px auto 14px;
+}
+.block5 {
+  @include flex-column;
+  background-color: $color_type_3;
+}
+.block5_layout {
+  position: relative;
+  margin: 89px 0px 0px;
+}
+.flex1_layout1 {
+  position: relative;
+  flex-grow: 1;
+  margin: 19px 40px 36px;
+}
+.flex_item1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 49px;
+}
+.image2 {
+  border-radius: 22px 22px 0px 0px;
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+  object-fit: contain;
+  object-position: center top;
+}
+.image2_layout {
+  position: relative;
+  height: 63px;
+  width: 49px;
+  min-width: 49px;
+}
+.flex_spacer2 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 46px;
+}
